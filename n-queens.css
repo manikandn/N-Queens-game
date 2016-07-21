@@ -1,0 +1,99 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width:98%;
+	margin: 0 1%;
+}
+
+div#nav{
+	margin-top: 10px;
+	overflow: hidden;
+	background-color: #323435;
+	color: #afa;
+}
+
+div#navc{
+	float: left;
+	width: 40%;
+	margin: 20px 5% 20px 5%;
+}
+
+div#input-box{
+	margin: 50px 30%;
+	padding: 5%;
+	border: 1px solid #000000;
+}
+
+div#main-page{
+	display: none;
+}
+
+.hide{
+	display: none;
+}
+
+div#main-page{
+	overflow: hidden;
+}
+
+div#header{
+	display: none;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+div#sss1,div#sss2{
+	float: left;
+	width: 40%;
+	margin: 20px 5% 20px 5%;
+}
+
+div#progress-pane{
+	margin: 25px 0 0 0;
+
+}
+
+div#queen-indicator span{
+	padding: 18px;
+	display: inline-block;
+}
+
+div#game-pane,div#overlay-res{
+	margin: 25px 0 0 0;
+}
+
+div#chess-board,div#result-chess-board{
+	border: 1px solid #00ff00;
+	padding: 10px;
+}
+
+div#chess-board input{
+	width: 41px;
+}
+
+p#res{
+	text-align: center;
+}
+span#c1{
+	color: green;
+}
+
+span#c2{
+	color: red;
+}
+
+div#result-chess-board input{
+	width: 41px;
+}
+
+button#reviewButton{
+	float: right;
+}
+
+div#overlay-res{
+	display: none;
+}

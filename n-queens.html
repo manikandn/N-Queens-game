@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>N-Queen's Game</title>
+		<link rel="stylesheet" type="text/css" href="n-queens.css">
+		<meta content="width=device-width, initial-scale=1.0"/>
+	</head>
+	<body>
+
+		<div id="nav">
+
+				<div id="navc">
+					<h3>N'Queens Game</h3>
+				</div>
+
+				<div id="navc">
+					<span></span>
+				</div>
+
+		</div>
+
+
+
+		<div id="input-box">
+
+				Name:<input type="text" id="player-name" maxlength="20" size="25" required="required" autofocus></input><br><br>
+
+				Size:<input type="number" id="box-size" min="4" max="20" placeholder="5" size="4" required></input><br><br>
+
+				<button id="getCount">Start</button>
+
+		</div>
+
+		<div id="Game">
+
+			<div id="header">
+
+				<div id="sss1">
+					<h3 id="n1me">name</h3>
+				</div>
+
+				<div id="sss2">
+					<p id="message">msg</p>
+				</div>
+
+			</div>
+
+			<div id="main-page">
+
+
+
+				<div id="progress-pane">
+					<div id="queen-indicator">
+						<!-- span element for queen idicator-->
+					</div>
+				</div>
+
+				<div id="game-pane">
+
+					<div id="chess-board">
+						<!-- chess board -->
+					</div>
+
+				</div>
+
+				<div id="foot">
+
+					<span id="clickedResult">Button click result..</span>
+
+				</div>
+
+			</div>
+
+			<div id="overlay-res">
+
+				<p id="res"></p>
+				<p id="res">The Queens which are in <span id="c1">GREEN</span> color are safe. <br>&<br>The Queens which are in <span id="c2">RED</span> color are unsafe. <br><br></p>
+
+				<div id="result-chess-board">
+					<!-- chess board -->
+				</div>
+
+				<br><br>
+				<button><a href="n-queens.html">&lt;&lt;back</a></button>
+
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="n-queens.js"></script>
+
+	</body>
+</html>
