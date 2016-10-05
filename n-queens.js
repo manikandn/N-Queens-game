@@ -42,10 +42,10 @@ var nQueens = {
 		countEle.addEventListener('click', function(e) {
 			name = document.getElementById("player-name").value;
 			number = document.getElementById("box-size").value;
-			if(number<=30 && number>3)
+			if(number<=30 && number>5)
 				_this.goToGame(name, number);
 			 else
-			 	window.alert("Entering number sholud be between 4 and 30.");
+			 	window.alert("Entering number sholud be between 6 and 30.");
 		});
 	},
 
